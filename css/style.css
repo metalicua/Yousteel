@@ -1,6 +1,7 @@
 body, .container {
-    background-color: #e4e4e4;
+    background-color: #0e0e0e;
 	position: relative;
+	color: #fff;
 }
 .shadows{
     box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
@@ -58,6 +59,7 @@ img {
 }
 .tournir__title, .section-title, h1 {
     text-align: center;
+	color: #fff;
 }
 
 .slider_img, .iso_img {
@@ -86,7 +88,7 @@ img {
     background: transparent;
 }
 .about-wrap{
-    background: rgba(228,228,228,0.8);
+    background: rgba(14,14,14,0.8);
 }
 .section-title{
     padding-bottom: 30px;
@@ -103,7 +105,7 @@ img {
     background-attachment: fixed;
 }
 .turnkey_hall .container {
-    background: rgba(228,228,228,0.8);
+    background: rgba(14,14,14,0.8);
 }
 .turnkey_hall h3 {
     text-align: center;
@@ -137,6 +139,7 @@ img {
 }
 .bars-img_discr{
     text-align: center;
+	background-color: #CCCCCC;
 }
 .additionally-column,
 .frame-column,
@@ -226,9 +229,8 @@ img {
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	top: 30%;
+	top: 25%;
 	left: 0%;
-	color: #fff;
 	-webkit-text-stroke: 1px black;
 }
 
@@ -251,7 +253,7 @@ img {
     background-attachment: fixed;
 }
 .frame-wrap{
-	background: rgba(228,228,228,0.8);
+	background: rgba(14,14,14,0.8);
 }
 .bench-disc {
 	padding: 10px 0;
@@ -275,7 +277,7 @@ img {
 	display: inline-block;
     text-align: center;
     padding: 4px 12px;
-    border: 2px solid #000;
+    border: 2px solid #ccc;
     border-radius: 18px;
 }
 @media (max-width: 768px){
@@ -285,12 +287,12 @@ img {
 }
 .footer{
 	padding: 25px 0;
-	background-color: #212529;
+	background-color: #2b2a29;
 	color: #fff;
 	border-top: 2px solid #dd0017;
 }
 .footer .container {
-	background-color: #212529;
+	background-color: #2b2a29;
 }
 .footer a {
 	color: #fff;
