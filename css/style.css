@@ -99,6 +99,10 @@ img {
 .brand{
     padding: 60px 0;
 }
+.brand-item:nth-child(3) img,
+.brand-item:nth-child(2) img {
+	padding-bottom: 7px;
+}
 .turnkey_hall{
     background: url(../img/hallbg.jpg) center no-repeat;
     background-size: cover;
@@ -141,6 +145,7 @@ img {
     text-align: center;
 	background-color: #CCCCCC;
 }
+.brand-column,
 .additionally-column,
 .frame-column,
 .bench-column,
@@ -151,6 +156,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.brand-item,
 .frame-link,
 .bench-box,
 .column-item {
@@ -196,6 +202,7 @@ img {
 }
 @media (max-width: 768px){
 	.additionally-item,
+	.brand-item,
 	.column-item {
 		width: calc(100% - 10px);
 	}
