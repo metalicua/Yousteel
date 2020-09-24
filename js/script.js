@@ -52,7 +52,7 @@ $(document).ready(function(){
 	let $buttonToTop = $('.js_button_to_top'),
 	  	$header = $('.header');
   $($buttonToTop).click(function(){
-     
+     event.preventDefault();
       $('html, body')
           .animate({scrollTop:$($header)
           .position().top}, 3000);
