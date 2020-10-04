@@ -18,8 +18,14 @@ img {
 		max-width: 100%;
 	}
 }
+@media (max-width: 576px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+}
 .btn{
     padding: 10px 25px;
+	margin-bottom: 20px;
     border-radius: 10px;
     color: #fff;
     background: linear-gradient(90deg, #ff7702 0%, #dd0017 100%);
@@ -89,6 +95,9 @@ img {
 }
 .about-wrap{
     background: rgba(14,14,14,0.8);
+}
+.text-box{
+	padding: 0 15px;
 }
 .section-title{
     padding-bottom: 30px;
@@ -291,6 +300,9 @@ img {
 	.additionally-item{
 		width: calc(50% - 10px);
 	}
+}
+.gantel{
+	padding-top: 20px;
 }
 .footer{
 	padding: 25px 0;

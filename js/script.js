@@ -45,9 +45,9 @@ $(document).ready(function(){
 	$('.bars-slider').slick({
 		
 	});
-	$('.additionally-box').slick({
-		
-	});
+//	$('.additionally-box').slick({
+//		
+//	});
 	 // scroll to top
 	let $buttonToTop = $('.js_button_to_top'),
 	  	$header = $('.header');
