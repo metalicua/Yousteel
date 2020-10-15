@@ -42,12 +42,27 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         speed: 1000,
     });
+	
 	$('.bars-slider').slick({
+		slidesToShow: 1,
+	    slidesToScroll: 1,
+		arrows: false,
+	    fade: true,
+		asNavFor: '.bars-nav',
+		adaptiveHeight: true
+	});
+	$('.bars-nav').slick({
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  asNavFor: '.bars-slider',
+		  
+		  centerMode: true,
+		  focusOnSelect: true
+		});
+	
+	$('.additionally-box').slick({
 		
 	});
-//	$('.additionally-box').slick({
-//		
-//	});
 	 // scroll to top
 	let $buttonToTop = $('.js_button_to_top'),
 	  	$header = $('.header');

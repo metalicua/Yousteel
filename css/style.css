@@ -151,6 +151,7 @@ img {
     padding: 60px 0;
 }
 .bars-img_discr{
+	margin-bottom: 30px;
     text-align: center;
 	background-color: #CCCCCC;
 }
@@ -303,6 +304,14 @@ img {
 }
 .gantel{
 	padding-top: 20px;
+}
+.bars-nav{
+	margin-bottom: 30px;
+	border-top: 2px dashed red;
+	border-bottom: 2px dashed red;
+}
+.bars-nav img {
+	padding: 10px;
 }
 .footer{
 	padding: 25px 0;
