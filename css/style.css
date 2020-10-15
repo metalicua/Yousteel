@@ -64,6 +64,7 @@ img {
     padding-top: 80px;
 }
 .tournir__title, .section-title, h1 {
+	padding: 15px 0;
     text-align: center;
 	color: #fff;
 }
@@ -102,6 +103,11 @@ img {
 .section-title{
     padding-bottom: 30px;
 }
+.section-title h2 {
+	padding: 10px 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
 .section-content{
 	padding: 0 10px;
 }
@@ -136,6 +142,7 @@ img {
 }
 .slick-dots li button:before{
     font-size: 10px;
+	color: #fff;
 }
 .hall-button{
     padding: 20px 0;
@@ -146,6 +153,30 @@ img {
     background-size: cover;
     background-attachment: fixed;
 }
+.bars-list{
+	list-style: none;
+	display: flex;
+}
+.bars-tab {
+	display: none;
+}
+.bars-link {
+	padding: 5px 15px;
+	margin: 0 20px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	color: #ccc;
+}
+.active,
+.bars-link:hover {
+	border: 2px solid #FC0004;
+	color: #FC0004;
+	text-decoration: none
+}
+.block{
+	display: block;
+}
+
 .bars .cantainer,
 .turnkey_hall .container {
     padding: 60px 0;
@@ -307,11 +338,19 @@ img {
 }
 .bars-nav{
 	margin-bottom: 30px;
-	border-top: 2px dashed red;
-	border-bottom: 2px dashed red;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
 }
 .bars-nav img {
 	padding: 10px;
+}
+.training {
+	padding: 30px 0;
+	border-bottom: 2px solid #ccc;
+}
+.photo{
+	display: flex;
+	justify-content: center;
 }
 .footer{
 	padding: 25px 0;
@@ -325,10 +364,25 @@ img {
 .footer a {
 	color: #fff;
 }
+.footer-span{
+	display: block;
+}
 .footer-title{
 	text-align: center;
 	padding-bottom: 10px;
 }
+.fa-w-16,
+.fa-w-14,
+.fa-w-10{
+	height: 20px;
+}
+.social-link{
+	margin-right: 5px;
+}
+.social-link:last-child{
+	margin-right: 0;
+}
+
 .button-to-top {
     display: none;
     position: fixed;

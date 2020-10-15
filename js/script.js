@@ -10,6 +10,8 @@ $(document).ready(function(){
     });
      $('.hall-slider').slick ({
         infinite: true,
+		autoplay: true,
+		autoplaySpeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 3,
         arrows: false,
@@ -52,7 +54,7 @@ $(document).ready(function(){
 		adaptiveHeight: true
 	});
 	$('.bars-nav').slick({
-		  slidesToShow: 3,
+		  slidesToShow: 7,
 		  slidesToScroll: 1,
 		  asNavFor: '.bars-slider',
 		  
@@ -90,6 +92,16 @@ $(document).ready(function(){
         $('html, body')
             .animate({scrollTop:$($value)
             .position().top}, 3000);
+            
+    });
+	//tabs
+	$('.bars-link').on('click', function () {
+		 event.preventDefault();
+        var $dataAttr = $(this).attr('data-attr');
+       $('.bars-link').removeClass('active'),
+		$('.block').removeClass('block'),
+	   	$(this).addClass('active').siblings().removeClass('active'),
+	   	$('.tab-box').find( $dataAttr ).addClass('block').siblings().removeClass('block');
             
     });
 });
