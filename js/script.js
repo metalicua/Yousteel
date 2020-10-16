@@ -52,6 +52,7 @@ $(document).ready(function(){
 	    fade: true,
 		asNavFor: '.bars-nav',
 		adaptiveHeight: true
+		
 	});
 	$('.bars-nav').slick({
 		  slidesToShow: 7,
@@ -59,7 +60,23 @@ $(document).ready(function(){
 		  asNavFor: '.bars-slider',
 		  
 		  centerMode: true,
-		  focusOnSelect: true
+		  focusOnSelect: true,
+		responsive: [
+            {
+            breakpoint: 992,
+            settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1
+            }
+            },
+            {
+            breakpoint: 576,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+            }
+            }
+        ]
 		});
 	
 	$('.additionally-box').slick({

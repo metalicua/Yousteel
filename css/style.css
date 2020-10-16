@@ -103,6 +103,7 @@ img {
 .section-title{
     padding-bottom: 30px;
 }
+.disk-title h2,
 .section-title h2 {
 	padding: 10px 0;
 	border-top: 1px solid #fff;
@@ -156,6 +157,7 @@ img {
 .bars-list{
 	list-style: none;
 	display: flex;
+	padding-left: 0;
 }
 .bars-tab {
 	display: none;
@@ -247,6 +249,13 @@ img {
 	.column-item {
 		width: calc(100% - 10px);
 	}
+	.bars-list{
+		font-size: 10px;
+	}
+	.bars-link {
+		margin: 0 5px;
+	}
+	
 }
 .slider_bg{
 	align-items: center;
@@ -274,12 +283,10 @@ img {
 	padding-bottom: 20px;
 }
 .disk-title {
-	position: absolute;
-	width: 100%;
+	
+	
 	text-align: center;
-	top: 25%;
-	left: 0%;
-	-webkit-text-stroke: 1px black;
+	
 }
 
 .title-img img {
