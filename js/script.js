@@ -51,7 +51,7 @@ $(document).ready(function(){
 		arrows: false,
 	    fade: true,
 		asNavFor: '.bars-nav',
-		adaptiveHeight: true
+		
 		
 	});
 	$('.bars-nav').slick({
