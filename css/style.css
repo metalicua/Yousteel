@@ -243,6 +243,14 @@ img {
 		width: calc(50% - 10px);
 	}
 }
+@media (min-width: 769px){
+	.desktop {
+		display: block;
+	}
+	.mob{
+		display: none;
+	}
+}
 @media (max-width: 768px){
 	.additionally-item,
 	.brand-item,
@@ -254,6 +262,12 @@ img {
 	}
 	.bars-link {
 		margin: 0 5px;
+	}
+	.desktop {
+		display: none;
+	}
+	.mob{
+		display: block;
 	}
 	
 }
