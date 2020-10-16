@@ -162,6 +162,9 @@ img {
 .bars-tab {
 	display: none;
 }
+.bars-tab .row {
+	justify-content: center;
+}
 .bars-link {
 	padding: 5px 15px;
 	margin: 0 20px;
