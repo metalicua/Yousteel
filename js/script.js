@@ -38,7 +38,7 @@ $(document).ready(function(){
 
     $('.bars-img').slick({
         arrows: false,
-        dots: false,
+        dots: true,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2000,
