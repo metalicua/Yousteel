@@ -94,7 +94,7 @@ img {
 .bars-wrap .container,
 .frame .container,
 .about .container{
-    padding: 60px 0;
+    padding: 60px 15px;
     background: transparent;
 }
 .disk {
