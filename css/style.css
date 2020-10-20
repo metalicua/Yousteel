@@ -89,11 +89,25 @@ img {
     background-size: cover;
     background-attachment: fixed;
 }
+.turnkey_hall .container,
+.disk-wrap .container,
+.bars-wrap .container,
 .frame .container,
 .about .container{
     padding: 60px 0;
     background: transparent;
 }
+.disk {
+	 background: url("../img/diskbg.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.disk_small {
+	padding-top: 60px;
+}
+.turnkey-wrap,
+.disk-wrap,
+.bars-wrap,
 .about-wrap{
     background: rgba(14,14,14,0.8);
 }
@@ -124,9 +138,8 @@ img {
     background-size: cover;
     background-attachment: fixed;
 }
-.turnkey_hall .container {
-    background: rgba(14,14,14,0.8);
-}
+
+
 .turnkey_hall h3 {
     text-align: center;
 }
@@ -260,6 +273,10 @@ img {
 	.column-item {
 		width: calc(100% - 10px);
 	}
+	.bench-box,
+	.frame-link{
+		width: calc(50% - 10px);
+	}
 	.bars-list{
 		font-size: 10px;
 	}
@@ -272,7 +289,16 @@ img {
 	.mob{
 		display: block;
 	}
+	.frame-img {
+		padding-bottom: 10px;
+	}
 	
+}
+@media (max-width: 576px) {
+	.bench-box,
+	.frame-link{
+		width: calc(100% - 10px);
+	}
 }
 .slider_bg{
 	align-items: center;
