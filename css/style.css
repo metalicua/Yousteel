@@ -335,7 +335,8 @@ img {
 .title-img img {
 	margin-bottom: 5px;
 	width: 100%;
-	border: 2px solid red;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
 }
 .disk-text{
 	padding-bottom: 20px;
