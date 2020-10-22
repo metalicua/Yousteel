@@ -35,6 +35,14 @@ $(document).ready(function(){
             }
         ]
     });
+	 $('.title-box').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 1000,
+    });
 
     $('.bars-img').slick({
         arrows: false,
