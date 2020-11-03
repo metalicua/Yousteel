@@ -68,6 +68,8 @@ img {
 	padding-right: 5%;
 }
 .header-link {
+	display: flex;
+	align-items: center;
 	color: #ccc;
 }
 .header-link:hover{
