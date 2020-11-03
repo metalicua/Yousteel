@@ -88,6 +88,9 @@ img {
     text-align: center;
 	color: #fff;
 }
+.main-slider {
+	padding: 0 15px
+}
 
 .slider_img, .iso_img {
     width: 100%;
